@@ -1,10 +1,13 @@
 import './App.css';
-
+import Navbar from './Navbar'
 function App() {
   return (
     <div className="App">
-      <div className="content">
-        <h1>THE PROJECT IS UNDER CONSTRUCTION</h1>
+      <div className="Content">
+        <Navbar />
+        <div className="home">
+              
+        </div>
       </div>
     </div>
   );

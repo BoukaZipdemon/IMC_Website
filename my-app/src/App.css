@@ -1,6 +1,164 @@
+/*this css is for all elements */
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/* hedhi lil navbar */
+#logo{
+    width: 3rem;
+    height: 3rem;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 12vh;
+    width: 100%;
+}
 h1{
     text-transform: capitalize;
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: crimson;
+    font-size: 16px;
+    letter-spacing: 1.7px;
+    margin-left: 30px;
 }
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin-left: 2vw;
+}
+.links{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 60%;
+    color: black;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    margin-right: 4vw;
+}
+.links a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+.links a:visited{
+    color: black
+}
+.links a:active{
+    color: rgb(255, 0, 0);
+}
+.links a::before{
+    content:"";
+    position: absolute;
+    width: 4rem;    
+    background-color: rgb(0, 0, 0);
+    height: 5px;
+    transform: translateY(25px);
+    border-radius: 5px;
+    width: 0px;
+    transition: width 300ms;
+    transition-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
+
+}
+.links a:hover::before{
+    width: 50px;
+}
+#special{
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+    color: white;
+    padding: 9px;
+    letter-spacing: 1px;
+}
+#special:hover{
+    color: rgb(0, 169, 215);
+    border-color: rgb(0, 179, 255);
+}
+@media only screen and (max-width:1200px) {
+    #logo{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}
+@media only screen and (max-width:800px) {
+    .links {
+        position: absolute;
+        top: 84px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background-color: black;
+        height: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        opacity: 1;
+        overflow: hidden;
+    }
+
+    .active {
+        height: 450px;
+    }
+    .hamburger{
+        display: block;
+        cursor: pointer;
+        background-color: white;
+        border: none;
+    }
+    .hamburger .line{
+        width: 30px;
+        height: 3px;
+        background: black;
+        margin: 6px 0;
+    }
+    .links a{
+        padding: 10px 25px;
+        transition: padding 3s;
+        text-align: center;
+    }
+    .links a:hover{
+        background-color: white;
+        border-radius: 50px;
+    }
+    .links a:visited:hover{
+        color: black;
+    }
+    .links a:visited{
+        color: white;
+    }
+    .links a:hover::before{
+        width: 0px;
+    }
+    .links .active{
+        height: 450px;
+    }
+    .left{
+        width: 60%;
+    }
+}
+@media only screen and (max-width:500px){
+    .navbar h1{
+        font-size: 16px;
+    }
+    .left{
+        width: 80%;
+    }
+    .links{
+        top: 80px;
+    }
+    
+}
+
+/*this part is for the home page */
+
+
