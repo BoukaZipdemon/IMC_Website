@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 const Navbar = () => {
     const [isActive, setIsActive] = useState(false);
-
     const toggleMenu = () => {
         setIsActive(prevState => !prevState);
     };
@@ -11,7 +10,6 @@ const Navbar = () => {
                 <img id="logo" src="imclogo.png" alt="" />
                 <h1>Isamm Microsoft club</h1>
             </div>
-                
             <button className="hamburger" onClick={toggleMenu}>
                 <div className="line"></div>
                 <div className="line"></div>

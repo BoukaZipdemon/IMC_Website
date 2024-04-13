@@ -185,7 +185,7 @@ h1{
 /*this part is for the home page */
 /* this is maram's starting*/
 .home{
-    background-image: url(C:\Users\benam\Desktop\projetreactimc\IMC_Website\my-app\public\mainphoto.jpg);
+    background-image: url(../public/mainphoto.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
