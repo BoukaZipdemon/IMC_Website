@@ -16,11 +16,11 @@ const Navbar = () => {
                 <div className="line"></div>
             </button>
             <div className={`links ${isActive ? "active" : ""}`}>
-                <a href="#">Home</a>
-                <a href="#">about</a>
-                <a href="#">services</a>
-                <a href="#">team</a>
-                <a href="#" id='special'>Join us</a>
+                <a href="/">Home</a>
+                <a href="/">about</a>
+                <a href="/">services</a>
+                <a href="/">team</a>
+                <a href="/" id='special'>Join us</a>
             </div>
         </nav>
         
