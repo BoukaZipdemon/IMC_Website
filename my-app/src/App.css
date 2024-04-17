@@ -189,7 +189,10 @@ h1{
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
+    width: 1280px;
+    margin: 0 auto;
 }
+
 
 
 
