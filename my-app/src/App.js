@@ -5,14 +5,14 @@ import Home from './Home';
 import Aboutus from './Aboutus';
 import ImageSlider from "./ImageSlider";
 const slides=[
-  { url: 'public/img1.jpg', title :'welcome' },
-  { url: 'public/img2.jpg', title :'to' }, 
-  { url: 'public/img3.jpg', title :'imc website' }
+  { url: 'img1.jpg', title :'welcome' },
+  { url: 'img2.jpg', title :'to' }, 
+  { url: 'img3.jpg', title :'imc website' }
 ];
 const containerStyles  ={
-height :"500px",
-width : "100%",
-margin:" 0 auto",
+    height :"500px",
+    width : "100%",
+    margin:" 0 auto",
 };
 function App() {
   return (
