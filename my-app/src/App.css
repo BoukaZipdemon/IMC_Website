@@ -185,13 +185,47 @@ h1{
 /*this part is for the home page */
 /* this is maram's starting*/
 .home{
-    background-image: url(../public/mainphoto.jpg);
-    background-repeat: no-repeat;
+
     background-size: cover;
     height: 400px;
     width: 1280px;
     margin: 0 auto;
 }
+/*the image slider part*/
+.left-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 32px;
+    font-size: 45px;
+    color: #fff;
+    z-index: 1;
+    cursor: pointer;
+  }
+  .right-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 32px;
+    font-size: 45px;
+    color: #fff;
+    z-index: 1;
+    cursor: pointer;
+  }
+  .slider {
+    height: 100%;
+    position: relative;
+  }
+  
+  .slide {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+  }
+  
+
 
 
 
