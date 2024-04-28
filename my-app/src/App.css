@@ -104,6 +104,7 @@ h1{
         align-items: center;
         opacity: 1;
         overflow: hidden;
+        z-index: 10;
     }
 
     .active {
@@ -185,9 +186,8 @@ h1{
 /*this part is for the home page */
 /* this is maram's starting*/
 .home{
-
     background-size: cover;
-    height: 400px;
+    height: 0px;
     width: 1280px;
     margin: 0 auto;
 }
@@ -366,3 +366,41 @@ h1{
         margin: 20px;
     }
 }
+/* this is fedi starting the team section*/
+.boxes{
+    height: 600px;
+    width: 100%;
+}
+.boxes h1{
+    text-align: center;
+    font-size: 24px;
+    line-height: 90px;
+    text-shadow: 1px 1px rgb(0, 132, 255);
+    text-transform: uppercase;
+}
+.box1{
+    width: 95%;
+    margin: auto;
+}
+.boxslide{
+    background-color: #D9D9D9;
+    height: 460px;
+    width: 25%;
+    z-index: 10;
+    border-radius: 20px;
+    border: 2px solid rgb(0, 132, 255);
+}
+
+.boxslide  img{
+    height: 70%;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+.boxslide p{
+    text-align: center;
+    line-height: 80px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
