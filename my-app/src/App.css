@@ -338,15 +338,9 @@ h1{
 @media only screen and (max-width:850px){
     .aboutus{
         height: 900px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
     .aboutus .box{
-        display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
         height: 700px;
     }
     .aboutus .box .text{
