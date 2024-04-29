@@ -9,6 +9,32 @@ const Team = ({data}) => {
         speed: 500,
         slidesToShow: 4,
         slidesToScroll: 1,
+        responsive: [
+            {
+              breakpoint: 1124,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: true
+              }
+            },
+            {
+              breakpoint: 880,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                initialSlide: 1
+              }
+            },
+            {
+              breakpoint: 580,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+          ]
       };
     return ( 
         <div  className="boxes">

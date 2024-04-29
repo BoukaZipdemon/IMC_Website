@@ -1,4 +1,4 @@
-
+import Footer from './Footer';
 import './App.css';
 import Navbar from './Navbar';
 import Home from './Home';
@@ -33,6 +33,9 @@ function App() {
         <div className="team">
             <Team data={data}/>
         </div>
+        <div className="footer">
+            <Footer />
+        </div>
       </div>
     </div>
   );
@@ -51,12 +54,12 @@ const data = [
   {
       val: `2`,
       img: `project_manager.jpg`,
-      name: `project_manager`
+      name: `project manager`
   },
   {
       val: `3`,
       img: `design.jpg`,
-      name: `Design_manager`
+      name: `Design manager`
   },
   {
       val: `4`,
@@ -66,11 +69,11 @@ const data = [
   {
     val: `5`,
     img: `entrepreneurial.jpg`,
-    name: `entrepreneurial_managers`
+    name: `entrepreneurial managers`
 },{
   val: `6`,
   img: `logistic.jpg`,
-  name: `logistic_manager`
+  name: `logistic manager`
 }
 ];
 
