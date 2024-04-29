@@ -43,6 +43,7 @@ h1{
     background-color: rgb(255, 255, 255);
     height: 100%;
     margin-right: 4vw;
+    z-index: 4;
 }
 .links a {
     text-decoration: none;
@@ -215,6 +216,10 @@ h1{
 .slider {
     height: 100%;
     position: relative;
+  }
+  .h1{
+    position: relative;
+    top: 500px;
   }
 
   

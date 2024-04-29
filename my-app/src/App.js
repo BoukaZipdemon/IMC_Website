@@ -1,7 +1,6 @@
 import Footer from './Footer';
 import './App.css';
 import Navbar from './Navbar';
-import Home from './Home';
 import Aboutus from './Aboutus';
 import ImageSlider from "./ImageSlider";
 import Team from "./Team";
@@ -24,9 +23,6 @@ function App() {
            <div style={containerStyles}>
               <ImageSlider slides={slides}/>
            </div>
-        <div className="Home">
-            <Home />    
-        </div>
         <div className="Aboutus">
             <Aboutus />
         </div>
