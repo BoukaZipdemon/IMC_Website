@@ -4,6 +4,9 @@ import Navbar from './Navbar';
 import Aboutus from './Aboutus';
 import ImageSlider from "./ImageSlider";
 import Team from "./Team";
+import './signup.css';
+import  Loginsignup from './Loginsignup';
+
 const slides=[
   { url: 'mainphoto.jpg', title :'welcome' },
   { url: 'img2.jpg', title :'to' }, 
@@ -28,6 +31,9 @@ function App() {
         </div>
         <div className="team">
             <Team data={data}/>
+        </div>
+        <div className='Loginsignup'>
+            <Loginsignup/>
         </div>
         <div className="footer">
             <Footer />

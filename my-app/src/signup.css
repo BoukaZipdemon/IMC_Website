@@ -1,0 +1,82 @@
+/*hedha eli fih kolchay kolchay*/
+.container{
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+    width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 5px;
+
+  }
+    
+
+/*hedha eli fih l logo*/
+.imgcontainer{
+    display: flex;
+}
+/*hedha eli fih social edia pictures*/
+.socials{
+    display: flex;
+    justify-content: space-between
+  ;
+
+}
+/*hdha eli fih l logo wl social media pictures*/
+.bothcontain{
+    
+    display: flex;;
+    align-items:flex-start;
+    justify-content:flex-end;
+}
+.header{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.title{
+    text-align: center;
+    font-size: 24px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    height: 60px ;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    height: 60px ;
+}
+.mail{
+    background-color: lightgrey;
+    border:none;
+    height: 30px ;
+}
+.nom{
+    background-color: lightgrey;
+    border:none;
+    height: 30px ;
+}
+.phone{
+    background-color: lightgrey;
+    border:none;
+    height: 30px ;
+}
+.selection{
+    background-color: lightgrey;
+    border:none;
+    height: 30px ;
+}
+.imgcontainer,
+.followus {
+    margin-left: auto; /* Pushes these elements to the right */
+}
