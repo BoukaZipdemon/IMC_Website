@@ -11,7 +11,11 @@
 
   }
     
-
+.alltext{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
 /*hedha eli fih l logo*/
 .imgcontainer{
     display: flex;
@@ -25,9 +29,9 @@
 }
 /*hdha eli fih l logo wl social media pictures*/
 .bothcontain{
-    
     display: flex;;
     align-items:flex-start;
+    flex-direction: column;
     justify-content:flex-end;
 }
 .header{
