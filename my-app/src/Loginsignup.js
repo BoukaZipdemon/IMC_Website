@@ -35,7 +35,7 @@ const loginsignup = () => {
                     <div className="followus">
                         follow us on :
                         <div className="socials">
-                            <img src="insta.png" alt="insta" />
+                            <img src="insta.png" alt="insta" /> 
                             <img src="fb.png" alt="fb" />
                             <img src="linkedin.png" alt="linkedin" />
                         </div>
