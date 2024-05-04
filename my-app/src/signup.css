@@ -1,43 +1,54 @@
 /*hedha eli fih kolchay kolchay*/
-.container1{
-    display: flex;
-    justify-content:space-evenly;
-    flex-direction: column; /* Stack elements vertically */
-    align-items: center; /* Center elements horizontally */
-    width: 350px;
-    margin: 50px auto;
-    padding: 20px;
-    border-radius: 5px;
+.container3{ 
+/* Stack elements vertically */
+ /* Center elements horizontally */
 
-  }
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgba(80, 119, 154, 0.55);
+}
     
 .alltext{ 
     display: flex;
-    width: 100%;
     justify-content: space-around;
-    margin-right: 90%;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    padding: 1%;
 }
 /*hedha eli fih l logo*/
 .imgcontainer1{
     display: flex;
-    padding: 2%;
     border-radius: 10%;
 }
+.imgcontainer1 img{
+    border-radius: 59px;
+    width: 95%;
+    margin: auto;
+}
 /*hedha eli fih social edia pictures*/
+.followus{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
 .socials{
     display: flex;
-    justify-content: space-between;
-    padding: 2%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 /*hdha eli fih l logo wl social media pictures*/
 .bothcontain{
     display: flex;;
-    align-items:flex-start;
+    align-items:center;
     flex-direction: column;
-    justify-content:flex-end;
-    margin: 10%;
-    padding: 10%;
-    background-color: lightgray;
+    justify-content:center;
+    padding: 1%;
+    background-color: rgb(12, 4, 4);
     border-radius: 10%;
 }
 .header{
@@ -46,56 +57,117 @@
     flex-direction: column;
 }
 .title1{
+    padding-top: 20px;
     text-align: center;
-    font-size: 25px;
+    font-size: 27px;
+    text-shadow: 1px 1px rgb(255, 255, 255);
+}
+form{
+    width: 100%;
+    height: 100%;
 }
 .inputs{
     display: flex;
     flex-direction: column;
-    width: 180px;
+    width: 100%;
+    height: 100%;
     justify-content:space-around;
+}
+input,select{
+    width: 20rem;
+    text-transform: capitalize;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 15px;
 }
 .name{
     display: flex;
     flex-direction: column;
-    width: 180px;
-    height: 60px ;
+    text-transform: capitalize;
 }
 .email{
     display: flex;
     flex-direction: column;
-    width: 180px;
-    height: 60px ;
+    text-transform: capitalize;
 }
 .mail{
     background-color: lightgrey;
     border:none;
-    height: 30px ;
+    text-transform: capitalize;
 }
 .nom{
     background-color: lightgrey;
     border:none;
-    height: 30px ;
 }
 .phone{
     background-color: lightgrey;
     border:none;
-    height: 30px ;
 }
 .selection{
     background-color: lightgrey;
     border:none;
     height: 30px ;
 }
+.select{
+    text-transform: capitalize;
+}
 .imgcontainer,
 .followus {
     margin-left: auto; /* Pushes these elements to the right */
 }
-.socials {
-    margin-right: 10px;
-
-}
 .title{
     display: flex;
     justify-content: center;
+}
+#bt{
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.in1,.in2,.in3{
+    width: 50px;
+    height: 50px;
+    margin-right: 30px;
+    border-radius:15px;
+}
+#bt:hover{
+    color: rgb(0, 202, 91);
+}
+@media only screen and (max-width:1200px){
+    .alltext{
+        width: 80%;
+    }
+}
+@media only screen and (max-width:900px){
+    .alltext{
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 8%;
+    }
+    .bothcontain{
+        margin-top: 30px;
+    }
+    .inputs,#bt{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #bt{
+        margin-left: 1px;
+        margin: auto;
+    }
+    .title1{
+        width: 100%;
+        margin: auto;
+        padding-top: 50px;
+    }
+}
+.container3 span{
+    color: rgb(10, 180, 86);
+    font-weight: bolder;
 }

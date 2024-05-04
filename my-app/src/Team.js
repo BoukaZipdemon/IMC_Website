@@ -38,7 +38,7 @@ const Team = ({data}) => {
       };
     return ( 
         <div  className="boxes">
-            <h1>The team</h1>
+            <h1><span>T</span>he <span>T</span>eam</h1>
             <div className="box1">
                 <Slider {...settings}>
                     {data.map((d) => (

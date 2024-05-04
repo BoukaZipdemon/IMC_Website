@@ -244,9 +244,31 @@ h1{
     letter-spacing: 2px;
     text-align: center;
 }
-
-  
-
+.sp1{
+    text-align: center;
+}
+/*css home*/
+@media only screen and (max-width:900px){
+    .sp1{
+        text-align: center;
+    }
+    .whatever{
+        line-height: 25px;
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width:750px){
+    .welcome{
+        font-size: 24px;
+        margin-bottom: 1rem;
+    }
+    .whatever{
+        width: 90%;
+    }
+    .sp1{
+        height: 50px;
+    }
+}
 
 
 
@@ -403,7 +425,6 @@ h1{
     text-align: center;
     font-size: 24px;
     line-height: 90px;
-    text-shadow: 1px 1px rgba(80, 119, 154, 0.55);
     text-transform: uppercase;
 }
 .box1{
@@ -501,7 +522,7 @@ h1{
 .contact h1{
     text-transform: uppercase;
     font-size: 24px;
-    color: rgb(16, 168, 244);
+    color: rgb(2, 111, 51);
 }
 .about{
     display: flex;
@@ -566,3 +587,16 @@ h1{
     }
 }
 
+.sp{
+    text-transform: uppercase;
+    color: #0725ba;
+}
+
+
+.boxes span{
+    color: #4f7da4;
+    font-weight: bolder;
+}
+.boxes h1{
+    text-shadow: 1px 1px rgb(88, 88, 88);
+}

@@ -3,8 +3,8 @@ import './signup.css';
 
 const loginsignup = () => {
     return (
-        <div className="container1">
-            <div className="title1">JOIN US</div>
+        <div className="container3">
+            <h1 className="title1"><span>J</span>OIN <span>U</span>S</h1>
             <div className="alltext">
                 <form>
                     <div className="inputs">
@@ -26,7 +26,10 @@ const loginsignup = () => {
                             <option value="op2">project</option>
                         </select>
                     </div>
-                    <button type="submit">submit</button>
+                    <div className="bt">
+                        <button type="submit" id="bt">submit</button>
+                    </div>
+                    
                 </form>
                 <div className="bothcontain">
                     <div className="imgcontainer1">
@@ -35,9 +38,9 @@ const loginsignup = () => {
                     <div className="followus">
                         follow us on :
                         <div className="socials">
-                            <img className="insta" src="insta.png" alt="insta" /> 
-                            <img className="insta"  src="fb.png" alt="fb" />
-                            <img className="insta" src="linkedin.png" alt="linkedin" />
+                            <a href=""><img className="in1" src="insta.png" alt="insta" /></a> 
+                            <a href=""><img className="in2"  src="fb.png" alt="fb" /></a>
+                            <a href=""><img className="in3" src="linkedin.png" alt="linkedin" /></a>
                         </div>
                     </div>
                 </div>

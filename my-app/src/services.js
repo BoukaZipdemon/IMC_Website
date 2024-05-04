@@ -5,10 +5,8 @@ import React from 'react';
 const Services = () => {
 
   return (
-      
-    
   <div className="container">
-          <h1 className='title'>Services</h1>
+          <h1 className='title'><span>S</span>ervices</h1>
       <div className='taw'>
         <div className="workshop-container">
             <img className='img1' src="tech.jpg"  />
@@ -19,7 +17,8 @@ const Services = () => {
             </p>
             <img className='img1' src="il.png"/>
         </div>
-    <div className='both'>
+    <div className="triple">
+      <div className="both">
         <div className="empowerment-container">
             <h2 className="empower">Empower Your Career with IMC's Personalized Development!</h2>
             <p className="description">
@@ -34,14 +33,14 @@ const Services = () => {
           Compete, showcase, and unleash with ISAMM Microsoft Club's dynamic tech competitions. Push your limits and emerge victorious!
         </p>
       </div>
-    </div>
-      <div className="info-container">
-        <h2 className='info'>IMC VODCAST</h2>
-          <p className="info-text">For more info feel free to discover our instagram page</p>
-          <a  href="https://www.instagram.com/isamm_microsoft_club/"target="_blank"><img className="instaa" src="insta.png" alt="" /></a>
-          
-            
-          <a/>
+
+      </div>
+        <div className="info-container">
+          <h2 className='info'>IMC VODCAST</h2>
+            <p className="info-text">For more info feel free to discover our instagram page</p>
+            <a  href="https://www.instagram.com/isamm_microsoft_club/"target="_blank"><img className="instaa" src="insta.png" alt="" /></a>
+            <a/>
+        </div>
       </div>
       </div>
     </div>
