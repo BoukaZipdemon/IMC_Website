@@ -79,6 +79,7 @@ h1{
     color: white;
     padding: 9px;
     letter-spacing: 1px;
+    cursor: pointer;
 }
 #special:hover{
     color: rgb(0, 169, 215);
@@ -223,9 +224,25 @@ h1{
   }
 .tawi{
     display: flex;
-    align-items: center;
     flex-direction: column;
-    justify-content:flex-end;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 70%;
+    margin: auto;
+}
+.welcome{
+    font-size: 29px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.whatever{
+    width: 80%;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.696);
+    line-height: 30px;
+    letter-spacing: 2px;
+    text-align: center;
 }
 
   
