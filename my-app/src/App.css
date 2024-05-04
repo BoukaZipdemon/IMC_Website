@@ -221,6 +221,12 @@ h1{
     position: relative;
     top: 500px;
   }
+.tawi{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:flex-end;
+}
 
   
 

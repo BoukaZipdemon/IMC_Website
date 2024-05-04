@@ -6,6 +6,8 @@ import ImageSlider from "./ImageSlider";
 import Team from "./Team";
 import './signup.css';
 import  Loginsignup from './Loginsignup';
+import Services from "./Services";
+import './services.css';
 
 const slides=[
   { url: 'mainphoto.jpg', title :'welcome' },
@@ -28,6 +30,9 @@ function App() {
            </div>
         <div className="Aboutus">
             <Aboutus />
+        </div>
+        <div className='Services'>
+            <Services/>
         </div>
         <div className="team">
             <Team data={data}/>

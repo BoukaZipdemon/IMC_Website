@@ -1,5 +1,5 @@
 /*hedha eli fih kolchay kolchay*/
-.container{
+.container1{
     display: flex;
     justify-content:space-evenly;
     flex-direction: column; /* Stack elements vertically */
@@ -11,21 +11,23 @@
 
   }
     
-.alltext{
+.alltext{ 
     display: flex;
     width: 100%;
     justify-content: space-around;
+    margin-right: 90%;
 }
 /*hedha eli fih l logo*/
-.imgcontainer{
+.imgcontainer1{
     display: flex;
+    padding: 2%;
+    border-radius: 10%;
 }
 /*hedha eli fih social edia pictures*/
 .socials{
     display: flex;
-    justify-content: space-between
-  ;
-
+    justify-content: space-between;
+    padding: 2%;
 }
 /*hdha eli fih l logo wl social media pictures*/
 .bothcontain{
@@ -33,20 +35,25 @@
     align-items:flex-start;
     flex-direction: column;
     justify-content:flex-end;
+    margin: 10%;
+    padding: 10%;
+    background-color: lightgray;
+    border-radius: 10%;
 }
 .header{
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
 }
-.title{
+.title1{
     text-align: center;
-    font-size: 24px;
+    font-size: 25px;
 }
 .inputs{
     display: flex;
     flex-direction: column;
     width: 180px;
+    justify-content:space-around;
 }
 .name{
     display: flex;
@@ -87,4 +94,8 @@
 .socials {
     margin-right: 10px;
 
+}
+.title{
+    display: flex;
+    justify-content: center;
 }

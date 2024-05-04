@@ -28,9 +28,11 @@ const ImageSlider = ({slides}) => {
                 →
               </div>
               <div style={SlideStyles}>
-                <h3 className={"welcome"}>WELCOME TO ISAMM MICROSOFT CLUB !</h3>
-                <h1 className={"whatever"}>Where Creativity Meets Intellect and Hard Work , Engaging Minds in Intellectual, Professional, Educational, and Inspirational Pursuits is The Microsoft Club Way!</h1>
-              </div>
+                <div className="tawi">
+                  <h3 className="welcome">WELCOME TO ISAMM MICROSOFT CLUB !</h3>
+                  <h1 className="whatever">Where Creativity Meets Intellect and Hard Work , Engaging Minds in Intellectual, Professional, Educational, and Inspirational Pursuits is The Microsoft Club Way!</h1>
+                </div>
+             </div>
           </div>
           
         );
